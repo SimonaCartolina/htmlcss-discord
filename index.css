@@ -11,6 +11,10 @@ header{
     height:70vh;
     width: 100vw;
 }
+h1{
+    font-size:50px;
+    margin-bottom: 50px;
+}
 p{
     margin-bottom:30px;
     line-height: 2rem;
@@ -75,12 +79,6 @@ ul{
 li{
     margin-right:1rem;
 }
-
-h1{
-    font-size:50px;
-    margin-bottom: 50px;
-}
-
 .sezionedue,
 .sezionetre,
 .sezionequattro,
@@ -105,6 +103,16 @@ h1{
 .sezionetre{
     background-color:#F6F6F6;
 }
+.up{
+    filter: #D3D3D3;
+}
+.wavy img{
+    width:100vw;
+    filter: #D3D3D3;
+    transform: rotate(50%);
+    color:#D3D3D3
+}
+
 .sezionetre,
 .sezionecinque{
     background-color:#D3D3D3;
