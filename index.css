@@ -6,16 +6,53 @@
 
 }
 header{
-    background-color: #ADD8E6;
-    height: 100px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height:70vh;
+    width: 100vw;
+}
+p{
+    margin-bottom:30px;
+}
+#logo{
+    width:100px;
+}
+#entity{
+    color:black;
+}
+.bottone{
+    background-color: white;
+    border-radius: 15px;
+    text-align:center;
+    padding:7px;
+    font-size:13px;
+    color:black;
+}
+.apri{
+    background-color: black;
+    border-radius: 15px;
+    text-align:center;
+    padding:7px;
+    color:white;
+    margin-left:20px;
+}
+.uppersideheader{
     display:flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    margin-bottom:50px;
+}
+
+.secondpartheader{
+    width:36%;
+    margin:0 auto;
+    text-align: center;
+    color:white;
+    line-height:1.5rem;
+    
 }
 .container{
-    border: 3px dashed black;
-    background-color: #DAA520;
     padding:.5rem 1rem;
 }
 .logo, 
@@ -37,20 +74,9 @@ ul{
 li{
     margin-right:1rem;
 }
-.sezioneuno{
-    background-color: #00008B;
-    height: 70vh;
-    width: 100vw;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-}
-.viola{
-    background-color: #EE82EE;
-    border:3px dashed black;
-    width:70%;
-    height: 400px;
+h1{
+    font-size:50px;
+    margin-bottom: 50px;
 }
 
 .sezionedue,
