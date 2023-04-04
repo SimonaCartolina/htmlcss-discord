@@ -117,9 +117,15 @@ li{
 .sezionecinque{
     background-color:#D3D3D3;
 }
+.sezionecinque{
+    text-align:center;
+}
 .sezionesei{
     background-color: #23272A;
     border-bottom:3px solid grey;
+}
+.ultimaimmagine{
+    width:600px;
 }
 
 .azzurro{
@@ -132,10 +138,8 @@ li{
 }
 
 .verde{
-    width:80%;
+    width:60%;
     height:550px;
-    background-color: #228B22;
-    border:3px dashed black;
 }
 
 .acqua{
