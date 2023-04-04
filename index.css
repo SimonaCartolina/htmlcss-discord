@@ -22,7 +22,7 @@ p{
 #logo{
     width:100px;
 }
-#entity{
+.entity{
     color:black;
 }
 .bottone{
@@ -84,17 +84,20 @@ li{
 .sezionequattro,
 .sezionesei{
     background-color: #FFFFFF;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display:flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
 }
+.sezionetre{
+    background-color: white;
+}
 .sezionecinque{
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
-    background-color: #FFFFFF;
+    background-color:#F6F6F6;
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -103,14 +106,15 @@ li{
 .sezionetre{
     background-color:#F6F6F6;
 }
-.up{
-    filter: #D3D3D3;
+.bottomside{
+    transform:rotate(180deg);
 }
 .wavy img{
     width:100vw;
-    filter: #D3D3D3;
-    transform: rotate(50%);
-    color:#D3D3D3
+    margin:0;
+}
+.wave{
+    fill:"#FFFFFF";
 }
 
 .sezionetre,
@@ -125,7 +129,7 @@ li{
     border-bottom:3px solid grey;
 }
 .ultimaimmagine{
-    width:600px;
+    width:900px;
 }
 
 .azzurro{
@@ -139,7 +143,13 @@ li{
 
 .verde{
     width:60%;
-    height:550px;
+    height:100%;
+}
+.flex{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:10px;
 }
 
 .acqua{
@@ -165,14 +175,11 @@ footer{
     align-items: center;
 }
 .containerfooter{
-    border: 3px dashed black;
     width:5%;
-    background-color: #FFB6C1;
     justify-content: center;
 
 }
 .containerpadrefooter{
-    background-color: #7FFFD4;
     width:80%;
     height: 50%;
     padding-top:10px;
@@ -180,4 +187,20 @@ footer{
     flex-direction:row;
     justify-content:space-between;
     padding:6px 0px;
+}
+.registrati{
+    background-color:#6775dcf3;
+}
+
+.scaricapermac{
+    background-color:#6775dcf3;
+    font-size:20px;
+    text-align:center;
+    justify-content:center;
+    padding:20px;
+    color:white;
+    border-radius: 35px;
+}
+#paragrafoparticolare{
+    margin:10px;
 }
