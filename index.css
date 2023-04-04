@@ -75,6 +75,7 @@ ul{
 li{
     margin-right:1rem;
 }
+
 h1{
     font-size:50px;
     margin-bottom: 50px;
@@ -100,6 +101,9 @@ h1{
     flex-direction:row;
     justify-content: center;
     align-items: center;
+}
+.sezionetre{
+    background-color:#F6F6F6;
 }
 .sezionetre,
 .sezionecinque{
