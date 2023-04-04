@@ -13,6 +13,7 @@ header{
 }
 p{
     margin-bottom:30px;
+    line-height: 2rem;
 }
 #logo{
     width:100px;
@@ -110,16 +111,12 @@ h1{
 }
 
 .azzurro{
-    width:50%;
+    width:45%;
     height:500px;
-    border:3px dashed black;
-    background-color:#1E90FF;
 }
 .rosa{
-    width:30%;
+    width:22%;
     height:500px;
-    border:3px dashed black;
-    background-color:#FFC0CB;
 }
 
 .verde{
