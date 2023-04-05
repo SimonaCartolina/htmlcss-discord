@@ -109,15 +109,16 @@ li{
 .sezionetre{
     background-color:#F6F6F6;
 }
-.bottomside{
+.wavereverse{
     transform:rotate(180deg);
 }
-.wavy img{
+.wavy,
+.wavereverse{
     width:100vw;
-    margin:0;
-}
-.wave{
-    fill:"#FFFFFF";
+    height: 80px;
+    background-image: url(img/wave.svg);
+    background-repeat: no-repeat;
+    filter:opacity(0.17)
 }
 
 .sezionetre,
@@ -135,16 +136,16 @@ li{
 
 .azzurro{
     width:45%;
-    height:500px;
+    
 }
 .rosa{
     width:22%;
-    height:500px;
+    
 }
 
 .verde{
     width:60%;
-    height:100%;
+    
 }
 .flex{
     display:flex;
@@ -238,4 +239,5 @@ ul{
     background-image:url(img/stars.svg);
     background-repeat:no-repeat;
     background-size: cover;
+    padding-top:3rem;
 }
