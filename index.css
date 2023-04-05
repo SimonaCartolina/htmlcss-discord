@@ -3,7 +3,6 @@
     padding:0;
     box-sizing: border-box;
     font-family:'Cabin';
-
 }
 header{
     background-image: url(img/jumbo.png);
@@ -11,6 +10,18 @@ header{
     height:70vh;
     width: 100vw;
 }
+.uppersideheader{
+    position:fixed;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height:10vh;
+    width: 100vw;
+    padding-bottom::10vh;
+}
+.secondpartheader{
+    padding-top:20vh;
+}
+
 img{
     width:100%;
 }
